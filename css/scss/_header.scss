@@ -7,10 +7,20 @@
 
 
  .header-slider{
-    height: 600px;
+    height: 800px;
     background-color: black;
     background-attachment: relative;
     background-position:fixed ;
     
    
 }
+
+.intro-section{
+    background: rgba(255, 255, 255, 0.2);
+    
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    position: absolute;
+
+}
+
+

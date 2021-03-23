@@ -3,11 +3,10 @@
   border: 1px solid red !important;
 }
 
-/*****/
-/************mixins*/
-.bg-dark-green {
-  background-color: #0D1F22;
-  color: red;
+.offical-bg {
+  background-image: url("../../img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .u-bg-color {
@@ -79,10 +78,17 @@
 }
 
 .header-slider {
-  height: 600px;
+  height: 800px;
   background-color: black;
   background-attachment: relative;
   background-position: fixed;
+}
+
+.intro-section {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+  position: absolute;
 }
 
 .offer-icons span {
@@ -196,6 +202,16 @@
 
 .subcribe .mail-icon {
   margin-top: -70px;
+}
+
+.projects {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../img/backgrounds/bg-2.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/backgrounds/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .first-row {

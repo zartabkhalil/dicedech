@@ -1,9 +1,6 @@
-/*****/
+.offical-bg {
+    background-image: url('../../img/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
-
-
-/************mixins*/
-.bg-dark-green{
-    background-color: $dark-green;
-    color:red;
 }
