@@ -7,7 +7,7 @@
 
 
  .header-slider{
-    height: 800px;
+    height: 500px;
     background-color: black;
     background-attachment: relative;
     background-position:fixed ;
@@ -15,11 +15,41 @@
    
 }
 
-.intro-section{
-    background: rgba(255, 255, 255, 0.2);
+@media (min-width: 400px) {
+    .intro-section{
+        background: rgba(255, 255, 255, 0.2);
+       box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 15%;    
+        margin-left: 15%;
+        width: 75%;
     
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+
+    
+
+
+}
+
+
+@media (min-width: 992px) {
+.intro-section {
+    background: rgba(255, 255, 255, 0.2);
+
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
     position: absolute;
+
+    margin-left: 70%;
+    width: 25%;
+    margin-top: 7%;
+}
 
 }
 

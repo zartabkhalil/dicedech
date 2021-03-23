@@ -9,9 +9,9 @@
     }
 
     li:hover{
-         background-color:lighten($color: $light-green, $amount: 2);
+         background-color:darken($color: $light-green, $amount: 29);
         border-radius: 10px;
-        color: white;
+        color: black;
     
     }
 }
