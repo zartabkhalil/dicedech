@@ -29,6 +29,10 @@
   background-color: #0D1F22 !important;
 }
 
+.bt-light-green {
+  border-bottom: 1px solid #84DCCF;
+}
+
 .u-bg-color {
   background-color: whitesmoke;
 }
