@@ -9,6 +9,18 @@
   background-attachment: fixed;
 }
 
+.bg-light-green {
+  background-color: #00c291 !important;
+}
+
+.br-ligth-green {
+  border: 1px solid #00c291 !important;
+}
+
+.txt-light-green {
+  color: #00c291 !important;
+}
+
 .bg-black {
   background-color: black !important;
 }

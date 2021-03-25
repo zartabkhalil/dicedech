@@ -6,6 +6,20 @@
 }
 
 
+.bg-light-green{
+
+    background-color:darken($color: #00CC99, $amount: 2)!important;
+}
+
+.br-ligth-green{
+
+    border:1px solid darken($color: #00CC99, $amount: 2) !important;
+    }
+
+.txt-light-green {
+
+    color: darken($color: #00CC99, $amount: 2) !important;
+}
 .bg-black{
     background-color: black!important ;
 }
